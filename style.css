@@ -62,3 +62,15 @@ h2 {
   text-align: center;
   color: black;
 }
+@media (min-width: 768px) {
+    .container {
+        max-width: 600px; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    input, button {
+        padding: 12px; 
+    }
+}
